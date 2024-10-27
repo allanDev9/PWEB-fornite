@@ -1,0 +1,143 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(rgb(127, 127, 245), rgb(167, 124, 131));
+}
+p,li{
+    color: white;
+    list-style-type: none;
+}
+section{
+    text-align: center;
+    margin-top: 4rem;
+}
+.contenido{
+    text-align: center;
+    margin-top: 0rem;
+    padding: 2rem 25rem 2rem 2rem;
+}
+nav{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.684);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 800;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.324);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.link-navegacion{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+.link-navegacion:hover{
+    color: rgb(47, 0, 255)
+}
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.separador{
+    border-bottom: 2px solid black;
+    margin-top: 80px;
+}
+.imagen-fornite{
+    width: 100%;
+    height: 280px;
+}
+.color-texto{
+    color: yellow;
+}
+.contenedor-modos-de-juego{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}
+.card{
+    border-radius: 10px;
+    padding: 70px;
+    margin: 0;
+    background: linear-gradient(rgb(109, 109, 180), rgb(52, 58, 52));
+    box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.234);
+    transition: all 0.5s ease-in-out;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+}
+.card:hover{
+    margin-top: 20px;
+    transform: scale(1.1);
+    background: linear-gradient(rgb(64, 64, 79), rgb(169, 204, 169));
+}
+.card:hover *{
+    color: rgb(0, 0, 0);
+}
+.imgs-modos-de-juegos,.animacion-flotante{
+    position: relative;
+    top: -40px;
+}
+.imgs-modos-de-juegos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.title-modos-de-juego{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.animacion-flotante{
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.4s ease-in-out;
+    color: aqua;
+}
+.pie-de-pagina{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.links-footer{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.links-footer:hover{
+    color: white;
+}
+.footer-creditos{
+    color: rgb(225, 255, 0);
+}
+.mi-github{
+    text-align: center;
+    position: relative;
+    right: -300px;
+    top: -40px;
+}
+.icon-github{
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+}
+.card-publicidad{
+    text-align: right;
+}
+.imagen-de-publicidad{
+    position: relative;
+    top: -950px;
+    width: 20%;
+    height: 500px;
+}
